@@ -1,5 +1,5 @@
 # think6-oss
-thinkph6文件上传oss整合
+thinkphp6文件上传oss整合
 
 ## 支持
 1. 本地存储
