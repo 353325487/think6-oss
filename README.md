@@ -42,6 +42,9 @@ use chziyun\Filesystem;
 
 $file = $this->request->file('file');
 $filesystem = new Filesystem($file);
+// 上传到默认磁盘
+$fileName = $filesystem->upload();
+// 指定上传位置并保存到数据库
 $fileName = $filesystem->setDisk('qiniu')->addFilesystem('image')->upload();
 echo $fileName;
 ```
@@ -66,4 +69,3 @@ CREATE TABLE `filesystem` (
 1. thinkphp
 2. aliyuncs/oss-sdk-php
 3. qiniu/php-sdk
-4. thans/thinkphp-filesystem-cloud
