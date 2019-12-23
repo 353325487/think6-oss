@@ -1,6 +1,6 @@
 <?php
 
-namespace chziyun;
+namespace chziyun\engine;
 
 abstract class AbstractEngine
 {

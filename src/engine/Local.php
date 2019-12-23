@@ -1,6 +1,6 @@
 <?php
 
-namespace chziyun;
+namespace chziyun\engine;
 
 use think\facade\Filesystem;
 

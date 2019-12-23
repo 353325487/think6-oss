@@ -1,6 +1,6 @@
 <?php
 
-namespace chziyun;
+namespace chziyun\engine;
 
 use Qiniu\Storage\UploadManager;
 use Qiniu\Auth;

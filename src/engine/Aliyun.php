@@ -1,6 +1,6 @@
 <?php
 
-namespace chziyun;
+namespace chziyun\engine;
 
 use OSS\Core\OssException;
 use OSS\OssClient;
